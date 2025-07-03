@@ -38,7 +38,7 @@ function displayNotes() {
 
   notes.forEach((note, index) => {
     const col = document.createElement('div');
-    col.className = 'col-md-6 col-lg-4';
+    col.className = 'col-12 col-md-6 col-lg-4';
 
     const card = document.createElement('div');
     card.className = `card shadow-sm note-card ${note.priority ? 'priority-border' : ''}`;
@@ -148,14 +148,9 @@ function saveNotes() {
 
 function getRandomColor() {
   const colors = [
-    '#FFEBEE', // light red
-    '#FFF3E0', // light orange
-    '#E8F5E9', // light green
-    '#E3F2FD', // light blue
-    '#F3E5F5', // light purple
-    '#FBE9E7', // light peach
-    '#E0F7FA', // light teal
-    '#FFFDE7'  // light yellow
+    '#FFEBEE', '#FFF3E0', '#E8F5E9', '#E3F2FD',
+    '#F3E5F5', '#FBE9E7', '#E0F7FA', '#FFFDE7'
   ];
   return colors[Math.floor(Math.random() * colors.length)];
 }
+
