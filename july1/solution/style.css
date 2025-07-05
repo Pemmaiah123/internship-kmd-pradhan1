@@ -1,0 +1,92 @@
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right top, #fdfbfb, #ebedee);
+  overflow-x: hidden; /* Prevent sideways shift */
+}
+
+section {
+  padding: 8vh 5vw;
+}
+
+.profile-pic {
+  width: 30vw;
+  max-width: 120px;
+  height: auto;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+footer {
+  background-color: #f8f9fa;
+  text-align: center;
+  padding: 2vh 0;
+}
+
+.social-icons img {
+  width: 8vw;
+  max-width: 30px;
+  height: auto;
+  margin: 0 2vw;
+}
+
+/* Section backgrounds */
+#home {
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+}
+#about {
+  background: linear-gradient(to right, #fdfbfb, #ebedee);
+}
+#education {
+  background: linear-gradient(to right, #dbe6f6, #c5796d);
+}
+#projects {
+  background: linear-gradient(to right, #f9f9f9, #e0e0e0);
+}
+#skills {
+  background: linear-gradient(to right, #e6e9f0, #eef1f5);
+}
+#contact {
+  background: linear-gradient(to right, #ffffff, #e3f2fd);
+}
+#thankyou {
+  background: linear-gradient(to right, #fafafa, #d7e1ec);
+}
+
+/* Project image responsiveness */
+.project-img {
+  width: 60%;
+  max-width: 300px;
+  height: auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .profile-pic {
+    width: 35vw;
+    max-width: 90px;
+  }
+
+  h1 {
+    font-size: 6vw;
+  }
+
+  .lead {
+    font-size: 4vw;
+  }
+
+  .social-icons img {
+    width: 10vw;
+  }
+
+  section {
+    padding: 10vh 6vw;
+  }
+}
