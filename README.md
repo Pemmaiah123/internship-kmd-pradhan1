@@ -1,1 +1,0 @@
-# internship-kmd-pradhan1
