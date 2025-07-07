@@ -1,0 +1,23 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 95%;
+  margin: auto;
+}
+
+table {
+  width: 100%;
+  table-layout: auto;
+}
+
+input, select, button {
+  width: 100%;
+  max-width: 100%;
+}
